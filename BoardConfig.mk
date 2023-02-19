@@ -146,6 +146,7 @@ BOARD_SUPER_PARTITION_GROUPS := main
 TARGET_TAP_TO_WAKE_NODE := /proc/touchpanel/double_tap_enable
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 
 # Recovery
