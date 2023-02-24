@@ -32,7 +32,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/oneplus/denniz/denniz-vendor.mk)
-$(call inherit-product-if-exists, vendor/mediatek/ims/mtk-ims.mk)
 $(call inherit-product-if-exists, packages/apps/prebuilt-apps/prebuilt-apps.mk)
 
 # OneplusParts
@@ -100,10 +99,6 @@ PRODUCT_PACKAGES += \
     libhardware \
     libhwbinder
 
-# ImsInit hack
-PRODUCT_PACKAGES += \
-    ImsInit
-
 # Init
 PRODUCT_PACKAGES += \
     init.mt6893.rc \
@@ -145,15 +140,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-aosp
-
-# MTK IMS Overlays
-PRODUCT_PACKAGES += \
-    mtk-ims \
-    mtk-ims-telephony
-
-# MTK InCallService
-PRODUCT_PACKAGES += \
-    MtkInCallService
 
 # Permissions
 PRODUCT_COPY_FILES += \
