@@ -422,13 +422,13 @@
         <item>sensorLocationY</item>
         <item>sensorRadius</item>
       -->
-        <item>540</item>
-        <item>2150</item>
-        <item>97</item>
+        <item>539</item>
+        <item>2175</item>
+        <item>96</item>
      </integer-array>
 
      <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
-    <integer name="config_udfps_illumination_transition_ms">50</integer>
+    <integer name="config_udfps_illumination_transition_ms">0</integer>
 
     <!-- The default peak refresh rate for a given device. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
