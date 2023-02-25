@@ -1,0 +1,3 @@
+allow rild radio_cdma_ecm_prop:file { map };
+allow rild default_prop:file { map };
+allow rild gsi_metadata_file:dir { search };

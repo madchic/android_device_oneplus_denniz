@@ -1,0 +1,2 @@
+allow ccci_fsd proc_version:file { read };
+allow ccci_fsd proc_version:file { open };

@@ -1,0 +1,3 @@
+allow self_init system_file:file { read };
+allow self_init system_file:file { open };
+allow self_init default_prop:file { map };

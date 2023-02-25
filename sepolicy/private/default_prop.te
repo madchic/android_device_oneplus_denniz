@@ -1,0 +1,8 @@
+get_prop(hal_oplus_nfc_default, default_prop)
+get_prop(self_init, default_prop)
+get_prop(mediacodec, default_prop)
+set_prop(hal_fingerprint_oplus, default_prop)
+get_prop(hal_fingerprint_oplus, default_prop)
+get_prop(mtk_hal_camera, default_prop)
+get_prop(ccci_rpcd, default_prop)
+get_prop(rild, default_prop)

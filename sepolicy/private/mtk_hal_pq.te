@@ -1,0 +1,3 @@
+allow mtk_hal_pq proc:file { read };
+allow mtk_hal_pq proc:file { open };
+allow mtk_hal_pq proc:file { getattr };
