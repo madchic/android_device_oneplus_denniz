@@ -65,13 +65,7 @@ allow vtservice pmsg_device:chr_file { write };
 allow vtservice pmsg_device:chr_file { open };
 allow vtservice self:process { fork };
 allow vtservice properties_device:dir { search };
-allow vtservice vendor_mtk_volte_support_prop:file { map };
-allow vtservice ccci_device:chr_file { read write };
-allow vtservice ccci_device:chr_file { open };
-allow vtservice ccci_device:chr_file { ioctl };
 allow vtservice self:process { setsched };
-allow vtservice vendor_mtk_vilte_support_prop:file { map };
-allow vtservice vendor_mtk_viwifi_support_prop:file { map };
 allow vtservice hwbinder_device:lnk_file { read };
 allow vtservice hwbinder_device:chr_file { read write };
 allow vtservice hwservicemanager_prop:file { map };
@@ -85,7 +79,6 @@ allow vtservice self:file { read };
 allow vtservice self:file { open };
 allow vtservice self:file { getattr };
 binder_call(hwservicemanager, vtservice)
-allow vtservice vtservice_hidl:fd { use };
 allow vtservice ashmem_libcutils_device:chr_file { read write };
 allow vtservice ashmem_libcutils_device:chr_file { map };
 binder_call(radio, vtservice)

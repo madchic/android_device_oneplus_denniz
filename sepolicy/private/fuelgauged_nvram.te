@@ -1,7 +1,0 @@
-allow fuelgauged_nvram sysfs_dt_firmware_android:dir { search };
-allow fuelgauged_nvram sysfs_dt_firmware_android:file { read };
-allow fuelgauged_nvram sysfs_dt_firmware_android:file { open };
-allow fuelgauged_nvram sysfs_dt_firmware_android:file { getattr };
-allow fuelgauged_nvram gsi_metadata_file:dir { search };
-allow fuelgauged_nvram sysfs:file { read };
-allow fuelgauged_nvram sysfs:file { open };

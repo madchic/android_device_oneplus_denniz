@@ -1,3 +1,0 @@
-allow hal_health_default proc_tp:dir { search };
-allow hal_health_default proc_tp:file { read write };
-allow hal_health_default proc_tp:file { open };

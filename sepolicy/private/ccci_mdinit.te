@@ -1,8 +1,0 @@
-allow ccci_mdinit sysfs_dt_firmware_android:file { read };
-allow ccci_mdinit sysfs_dt_firmware_android:file { open };
-allow ccci_mdinit sysfs_dt_firmware_android:file { getattr };
-allow ccci_mdinit sysfs:file { read };
-allow ccci_mdinit sysfs:file { open };
-allow ccci_mdinit sysfs_boot_mode:file { read };
-allow ccci_mdinit sysfs_boot_mode:file { open };
-allow ccci_mdinit init_service_status_private_prop:file { map };

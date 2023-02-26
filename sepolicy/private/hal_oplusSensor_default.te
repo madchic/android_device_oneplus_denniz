@@ -1,2 +1,0 @@
-allow hal_oplusSensor_default proc:file { read };
-allow hal_oplusSensor_default proc:file { open };

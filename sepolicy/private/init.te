@@ -32,6 +32,3 @@ allow init sysfs_fod:file { read open write getattr setattr };
 allow init sysfs_devices_block:file { write };
 allow init sysfs_devices_block:file { open };
 allow init proc_tp:file { setattr };
-allow init proc_swappiness:file { write };
-allow init proc_swappiness:file { open };
-allow init sysfs_devices_system_cpu:file { write };

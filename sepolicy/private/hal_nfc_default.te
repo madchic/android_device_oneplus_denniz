@@ -1,3 +1,0 @@
-allow hal_nfc_default system_file:file { getattr };
-allow hal_nfc_default system_file:file { read };
-allow hal_nfc_default system_file:file { open };

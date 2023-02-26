@@ -1,4 +1,0 @@
-allow netutils_wrapper ccci_device:chr_file { read write };
-allow netutils_wrapper rild:file { read };
-allow netutils_wrapper rild:unix_dgram_socket { read write };
-allow netutils_wrapper nvdata_file:file { read };

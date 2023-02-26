@@ -1,1 +1,0 @@
-allow hal_face_oplus system_prop:file { map };
