@@ -42,7 +42,10 @@ $(call inherit-product, packages/apps/OneplusParts/parts.mk)
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
-# Alert slider
+# Firmware
+TARGET_SHIPS_FIRMWARE := true
+
+# Alert slider #TODO do we need?
 PRODUCT_PACKAGES += \
     alert-slider_daemon
 
@@ -144,7 +147,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-aosp
+    $(DEVICE_PATH)/overlay-lineage
 
 # MTK IMS Overlays
 PRODUCT_PACKAGES += \
